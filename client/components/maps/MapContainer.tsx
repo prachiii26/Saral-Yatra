@@ -57,7 +57,7 @@ export default function MapContainer({ className, onReady, dark = true, center =
       .catch((err) => {
         console.error(err);
         setError(
-          "Google Maps failed to load. Check API key, billing, and HTTP referrer restrictions.",
+          "Google Maps failed. Check API key, billing, and HTTP referrer restrictions.",
         );
       });
 
